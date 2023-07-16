@@ -1,3 +1,5 @@
+// @/components/home/HomePageRedirect.tsx
+
 'use client';
 
 import { SessionProps } from '@/lib/hocs/withSession';

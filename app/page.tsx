@@ -1,14 +1,20 @@
+// @/app/page.tsx
+
 import HomePageCard from '@/components/home/HomePageCard';
-import HomePageRedirect from '@/components/home/HomePageRedirect';
+import HomePageRedirectDefault from '@/components/home/HomePageRedirect';
 import HomePageUsername from '@/components/home/HomePageUsername';
+import Navbar from '@/components/shared/Navbar';
 import withSession from '@/lib/hocs/withSession';
-const HomePageRedirectWithSession = withSession(HomePageRedirect);
+const HomePageRedirect = withSession(HomePageRedirectDefault);
 
 export default function HomePage() {
   return (
-    <HomePageCard>
-      <HomePageUsername />
-      <HomePageRedirectWithSession />
-    </HomePageCard>
+    <>
+      <Navbar />
+      <HomePageCard>
+        <HomePageUsername />
+        <HomePageRedirect />
+      </HomePageCard>
+    </>
   );
 }

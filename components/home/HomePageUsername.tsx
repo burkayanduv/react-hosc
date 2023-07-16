@@ -1,3 +1,5 @@
+// @/components/home/HomePageUsername.tsx
+
 import withSession, { SessionProps } from '@/lib/hocs/withSession';
 import React from 'react';
 

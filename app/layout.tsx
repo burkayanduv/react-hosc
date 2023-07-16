@@ -1,4 +1,3 @@
-import Navbar from '@/components/shared/Navbar';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -19,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={clsx(inter.className, 'mx-auto max-w-xl')}>
-        <Navbar />
         {children}
       </body>
     </html>

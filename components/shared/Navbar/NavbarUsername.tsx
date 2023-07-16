@@ -1,3 +1,5 @@
+// @/components/shared/Navbar/NavbarUsername.tsx
+
 import withSession, { SessionProps } from '@/lib/hocs/withSession';
 import React from 'react';
 

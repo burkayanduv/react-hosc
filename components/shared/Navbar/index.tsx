@@ -1,3 +1,5 @@
+// @/components/shared/Navbar/index.tsx
+
 import React from 'react';
 import NavbarUsername from './NavbarUsername';
 

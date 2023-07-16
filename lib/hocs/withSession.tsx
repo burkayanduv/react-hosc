@@ -1,3 +1,5 @@
+// @/lib/hocs/withSession.tsx
+
 import { Session } from '../types';
 import 'server-only';
 
